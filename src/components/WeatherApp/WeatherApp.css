@@ -4,8 +4,7 @@
     margin: auto;
     margin-top: 75px;
     border-radius: 12px;
-    background-image: linear-gradient(180deg, #208eee 0%, #1159ac 80%);
-    
+    background-image: linear-gradient(180deg, #9c50f9 0%, #4605a2 80%);
 }
 
 .top-bar{
@@ -40,4 +39,35 @@
     cursor: pointer;
 }
 
+.weather-image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
 
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    color: white;
+    font-size: 120px;
+    font-weight: 600;
+}
+
+.weather-location{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.data-container{
+    margin: 20%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}

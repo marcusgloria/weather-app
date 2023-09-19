@@ -9,6 +9,8 @@ import search_icon from "../assets/search.png";
 
 
 const WeatherApp = () => {
+ 
+
   return (
     <div className='container'>
       <div className='top-bar'>
@@ -18,16 +20,13 @@ const WeatherApp = () => {
         </div>
       </div>
       <div className="weather-image">
-        <img src={cloud_icon} width="300px" alt="" />
+        <img src={cloud_icon} width="250px" alt="" />
       </div>
       <div className="weather-temp">24° C</div>
       <div className="weather-location">London</div>
       <div className="data-container">
-          <img src="" alt="" className='icon'/>
-          <div className="data">
-          </div>
+        <div className="element-text">Nublado</div>
       </div>
-
     </div>
   )
 }
