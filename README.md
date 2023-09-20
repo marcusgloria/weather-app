@@ -6,7 +6,7 @@ Este projeto foi inicializado com [Create React App](https://github.com/facebook
 
 No diretório do projeto, você pode executar:
 
-### `npm início`
+### `npm start`
 
 Executa o aplicativo no modo de desenvolvimento.\
 Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
@@ -14,12 +14,12 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu na
 A página será recarregada quando você fizer alterações.\
 Você também pode ver erros de lint no console.
 
-### `teste npm`
+### `npm test`
 
 Inicia o executor de testes no modo de observação interativo.\
 Consulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
 
-### `npm executar compilação`
+### `npm run build`
 
 Cria o aplicativo para produção na pasta `build`.\
 Ele agrupa corretamente o React no modo de produção e otimiza a construção para obter o melhor desempenho.
@@ -29,7 +29,7 @@ Seu aplicativo está pronto para ser implantado!
 
 Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
 
-### `npm executar ejetar`
+### `npm run eject`
 
 **Observação: esta é uma operação unidirecional. Depois de `ejetar`, você não pode voltar!**
 
