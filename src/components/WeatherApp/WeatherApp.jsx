@@ -17,8 +17,6 @@ const WeatherApp = () => {
 
   const [wicon, setWicon] = useState("null");
 
-  console.log(api_key);
-
   const search = async () => {
 
     const element = document.getElementsByClassName("cityInput");
